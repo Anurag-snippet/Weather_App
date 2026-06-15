@@ -1,25 +1,85 @@
-# Weather App
+# 🌦️ Glassmorphic Weather Dashboard
 
-A small React + Vite app for:
-- weather lookup by city
-- loading spinner while fetching
+A premium, modern, and responsive Weather Dashboard built with React, Vite, and custom CSS. It features a stunning glassmorphic user interface, smooth animations, and integrates directly with the Open-Meteo APIs for real-time weather information and geocoding lookup.
 
-## Run locally
+![Dashboard Preview](https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?auto=format&fit=crop&w=1200&q=80)
 
-1. Open the project folder in VS Code.
-2. Install dependencies:
+## ✨ Features
+
+- **🔍 Smart City Lookup:** Resolves city names globally using the Open-Meteo Geocoding API to retrieve coordinates instantly.
+- **🌡️ Real-Time Forecasts:** Fetches accurate, up-to-date weather data including temperature, wind speed, wind direction, and local time.
+- **💎 Premium Glassmorphic UI:** Built with backdrop-filter blur effects, harmonized styling, and modern typography (using Inter).
+- **🌧️ Animated Environment:** Features a subtle, custom-animated rain overlay effect that gives the dashboard a tactile, dynamic atmosphere.
+- **📱 Fully Responsive:** Crafted using mobile-first grid and flexbox layouts to ensure a flawless experience on smartphones, tablets, and desktops.
+- **⚡ Smooth State Transitions:**
+  - Dynamic loading spinners during data fetching.
+  - Graceful error states handling invalid search inputs or offline connectivity.
+  - Preloaded defaults (e.g., *Varanasi*) so the app displays information immediately upon loading.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend Library:** [React](https://react.dev/) (v18)
+- **Build Tool:** [Vite](https://vitejs.dev/) (fast HMR)
+- **Styling:** Custom Vanilla CSS (Variables, keyframe animations, glassmorphism, responsive grid)
+- **Weather API:** [Open-Meteo Forecast API](https://open-meteo.com/)
+- **Geocoding API:** [Open-Meteo Geocoding API](https://open-meteo.com/en/docs/geocoding-api)
+
+---
+
+## 🚀 Getting Started
+
+Follow these steps to run the project locally on your machine:
+
+### Prerequisites
+
+Ensure you have [Node.js](https://nodejs.org/) installed (LTS version recommended).
+
+### Installation & Run
+
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/Anurag-snippet/Weather_App.git
+   cd Weather_App
+   ```
+
+2. **Install Dependencies:**
    ```bash
    npm install
    ```
-3. Start the dev server:
+
+3. **Start the Development Server:**
    ```bash
    npm run dev
    ```
-4. Open the local URL shown in the terminal.
 
-## What this app teaches
+4. **Open in Browser:**
+   Click the local URL shown in your terminal (typically `http://localhost:5173`) to view the application.
 
-- `useEffect` for fetching weather data
-- `useState` for form input
-- conditional rendering for the loading state
-- form events to change the city search
+---
+
+## 📁 Project Structure
+
+```text
+├── index.html          # Entry HTML template
+├── package.json        # Project manifest & dependencies
+├── src/
+│   ├── main.jsx        # App entry point (ReactDOM mount)
+│   ├── App.jsx         # Core application logic & component structure
+│   └── styles.css      # Core design system & custom animations
+└── README.md           # Project documentation
+```
+
+---
+
+## 🔗 Live Demo
+
+If deployed, you can access the live version of this app here:
+👉 **[Live Demo URL](https://anurag-snippet.github.io/Weather_App/)**
+
+---
+
+## 📄 License
+
+This project is open-source and available under the [MIT License](LICENSE).
