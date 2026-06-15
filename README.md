@@ -2,6 +2,8 @@
 
 A premium, modern, and responsive Weather Dashboard built with React, Vite, and custom CSS. It features a stunning glassmorphic user interface, smooth animations, and integrates directly with the Open-Meteo APIs for real-time weather information and geocoding lookup.
 
+🌐 **[View Live Demo](https://anurag-snippet.github.io/Weather_App/)**
+
 ![Dashboard Preview](https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?auto=format&fit=crop&w=1200&q=80)
 
 ## ✨ Features
@@ -75,8 +77,8 @@ Ensure you have [Node.js](https://nodejs.org/) installed (LTS version recommende
 
 ## 🔗 Live Demo
 
-If deployed, you can access the live version of this app here:
-👉 **[Live Demo URL](https://anurag-snippet.github.io/Weather_App/)**
+The application is deployed on GitHub Pages. You can access the live dashboard here:
+👉 **[Live Weather Dashboard](https://anurag-snippet.github.io/Weather_App/)**
 
 ---
 
